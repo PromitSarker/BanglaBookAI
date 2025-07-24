@@ -1,0 +1,13 @@
+fastapi 
+uvicorn 
+pymupdf 
+pytesseract 
+pillow 
+python-multipart 
+sentence-transformers 
+opencv-python-headless 
+numpy
+chromadb
+groq
+bangla
+pdfplumber
