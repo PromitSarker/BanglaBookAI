@@ -11,3 +11,16 @@ chromadb
 groq
 bangla
 pdfplumber
+
+
+fastapi 
+uvicorn[standard] 
+chromadb 
+sentence-transformers 
+pymupdf 
+pdfplumber 
+bangla-pdf-ocr 
+python-dotenv 
+groq 
+opencv-python 
+pillow
