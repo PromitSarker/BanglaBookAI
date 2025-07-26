@@ -30,8 +30,4 @@ RUN mkdir -p /app/chroma_db
 
 EXPOSE 8000 8501
 
-# Use a shell script to run both services
-COPY start.sh .
-RUN chmod +x start.sh
-
 CMD ["./start.sh"]
