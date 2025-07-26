@@ -2,7 +2,7 @@
 
 A Retrieval-Augmented Generation (RAG) system for Bengali PDF documents using FastAPI, Streamlit, and Groq LLM.
 
-## 🚀 Setup Guide
+## Setup Guide
 
 ### Prerequisites
 - Docker and Docker Compose
@@ -50,7 +50,7 @@ Access the application:
 - `transformers`: BERT-based correction
 - `layoutparser`: Document layout analysis
 
-## 📝 Sample Queries & Outputs
+##  Sample Queries & Outputs
 
 ### Bengali Queries
 ```bengali
@@ -67,7 +67,7 @@ Q: When was the Liberation War of Bangladesh?
 A: The Liberation War of Bangladesh took place in 1971.
 ```
 
-## 🔌 API Documentation
+## API Documentation
 
 ### Endpoints
 
@@ -90,7 +90,7 @@ Content-Type: application/json
 }
 ```
 
-## 📊 Technical Deep Dive
+## Technical Deep Dive
 
 ### Text Extraction Strategy
 I've used a multi-layered approach:
@@ -161,7 +161,7 @@ Potential improvements:
 3. Query reformulation
 4. Hybrid retrieval methods
 
-## 📁 Project Structure
+## Project Structure
 ```bash
 .
 ├── app.py              # Streamlit interface
@@ -174,7 +174,7 @@ Potential improvements:
 └── chunk_store.json  # Text chunk storage
 ```
 
-## 📚 References & Attribution
+## References & Attribution
 
 - Bengali BERT: [sagorsarker/bangla-bert-base](https://huggingface.co/sagorsarker/bangla-bert-base)
 - Sentence BERT: [l3cube-pune/bengali-sentence-bert-nli](https://huggingface.co/l3cube-pune/bengali-sentence-bert-nli)
