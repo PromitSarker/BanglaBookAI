@@ -8,7 +8,7 @@ sentence-transformers
 opencv-python-headless 
 numpy
 chromadb
-groq
+google-generativeai
 bangla
 pdfplumber
 
@@ -24,3 +24,23 @@ python-dotenv
 groq 
 opencv-python 
 pillow
+
+
+fastapi 
+uvicorn 
+python-multipart 
+pymupdf 
+pdfplumber 
+opencv-python 
+            
+pillow 
+bangla-pdf-ocr 
+sentence-transformers 
+chromadb 
+pytesseract 
+transformers 
+torch 
+indic-nlp-library 
+            
+google-generativeai 
+layoutparser[layoutmodels]
