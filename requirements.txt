@@ -15,7 +15,7 @@ indic-nlp-library
 groq
 python-dotenv
 regex
-numpy
+numpy<2
 layoutparser[layoutmodels]
 streamlit
 requests

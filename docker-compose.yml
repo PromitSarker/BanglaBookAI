@@ -5,8 +5,8 @@ services:
     build: .
     container_name: bengali-rag
     ports:
-      - "8000:8000" # FastAPI
-      - "8501:8501" # Streamlit
+      - "8000:8000"   # FastAPI
+      - "8501:8501"   # Streamlit
     volumes:
       - ./chroma_db:/app/chroma_db
       - ./.env:/app/.env

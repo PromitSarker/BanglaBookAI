@@ -27,8 +27,8 @@ docker-compose up --build
 ```
 
 Access the application:
-- Web UI: http://localhost:8501
-- API: http://localhost:8000
+- Web UI: http://127.0.0.1:8501
+- API: http://127.0.0.1:8000
 
 ## 🛠️ Tools & Technologies
 
@@ -54,17 +54,11 @@ Access the application:
 
 ### Bengali Queries
 ```bengali
-Q: 
-A: 
+Q: অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?
+A: অনুপমের ভাষায় সুপুরুষ হলো শম্ভুনাথ।
 
-Q: 
-A: 
-```
-
-### English Queries
-```
-Q: When was the Liberation War of Bangladesh?
-A: The Liberation War of Bangladesh took place in 1971.
+Q: কাকে অনুপমের ভাগ্য দেবতা বলে উল্লেখ করা হয়েছে?
+A: অনুপমের ভাগ্য দেবতা হলেন তার মামা।
 ```
 
 ## API Documentation

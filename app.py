@@ -28,7 +28,7 @@ with st.sidebar:
             with st.spinner("Processing PDF..."):
                 # Call the FastAPI endpoint to process the PDF
                 files = {"file": ("document.pdf", uploaded_file.getvalue(), "application/pdf")}
-                response = requests.post("http://localhost:8000/process", files=files)
+                response = requests.post("http://127.0.0.1:8000/process", files=files)
                 
                 if response.status_code == 200:
                     result = response.json()
@@ -53,7 +53,7 @@ if question:
         
         with st.spinner("Getting answer..."):
             # Call the FastAPI chat endpoint
-            response = requests.post("http://localhost:8000/chat", json=payload)
+            response = requests.post("http://127.0.0.1:8000/chat", json=payload)
             
             if response.status_code == 200:
                 answer = response.json()["answer"]
